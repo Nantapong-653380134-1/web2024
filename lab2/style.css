@@ -1,0 +1,123 @@
+/* CSS ปรับแต่งเพื่อให้ทุกอย่างเต็มหน้าจอ */
+body {
+  background: linear-gradient(135deg, #ceda66, #f6fa00);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.v-app {
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.v-btn {
+  background-color: #4caf50 !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.v-btn:hover {
+  background-color: #388e3c !important;
+}
+
+.v-card {
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff !important;
+  height: 100%;
+}
+
+.v-card-title {
+  color: #009688 !important;
+  font-weight: bold;
+  text-align: right;
+  font-size: 5vw; 
+  text-transform: uppercase;
+}
+
+.v-card-text p {
+  font-size: 3vw; 
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.pa-5 {
+  padding: 5% !important; 
+}
+
+.text-h5 {
+  font-size: 7vw !important;
+  color: #00796b;
+  text-align: right;
+}
+
+.text-h6 {
+  font-size: 8vw !important;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+}
+
+.v-card.selected {
+  background-color: #80cbc4 !important;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.v-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.v-row {
+  justify-content: center;
+}
+
+.result-screen {
+  background: #80deea;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.v-btn.result {
+  background-color: #00bcd4 !important;
+  color: white !important;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.v-card-transition {
+  transition: transform 0.5s ease;
+}
+
+.v-card-transition-enter-active,
+.v-card-transition-leave-active {
+  transition: opacity 0.5s ease;
+}
